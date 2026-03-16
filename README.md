@@ -22,3 +22,11 @@ Extract (unzip) the file on your computer.
 Place the extracted audio file into the project folder named content.
 
 Download all of the whole content folder, and put this in your project.
+
+
+Trinity Hurtado
+March 15, 2026
+
+This project is a Java game called Ann Droid in Algorithm Land.
+
+Project setup completed successfully.
