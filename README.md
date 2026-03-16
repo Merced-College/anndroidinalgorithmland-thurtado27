@@ -109,8 +109,21 @@ Selection sort repeatedly finds the highest value in the unsorted portion of the
 3.How did you verify that your sort was correct?
 I ran the program and printed the scores before and after sorting to verify they were arranged from highest to lowest.
 
+## Searching
 
+1.How does binary search work in your own words?
+Binary search repeatedly divides the sorted list in half. It compares the middle vlaue with the target score and eliminates half of the remaining vlaues each time.
 
+2.Why must the data be sorted before binary search can be used?
+Binary search depends on the data being in orde so it can decide which half of the list to ignore.
+
+3.What variables did use for low, high, mid?
+low = the start of the searhc page
+high = the end of the search range
+mid = the middle index that is checked during each itertion.
+
+4.What happens when the score is not found?
+if the search loop finishes without finding th score, the method retunes -1 to idicate the score does not exist.
 
 
 
