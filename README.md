@@ -88,6 +88,29 @@ The scores are stored using an integer data type.
 3.Where would it make sense to implement sorting of scores?
 Sorting should be implemented in the class that manages the score list because that class controls how scores are stored and displayed.
 
+## Sorting
+
+1.In which class did you add the sorting code?
+ScoreEntry
+
+2.Why did you choose that location?
+This class already handles storing and managing scores, so adding sorting here keeps all score logic together.
+
+3.What data structure is being sorted?
+rrayList<Integer> scores
+
+## Test The Sorting
+1.Which sorting algorithm did you choose?
+I implemented the Selection Sort algorithm.
+
+2.How does your algorithm work in your own words?
+Selection sort repeatedly finds the highest value in the unsorted portion of the list and swaps it with the first unsorted position. This continues until the entire list is sorted from highest to lowest.
+
+3.How did you verify that your sort was correct?
+I ran the program and printed the scores before and after sorting to verify they were arranged from highest to lowest.
+
+
+
 
 
 
